@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); /*font-family: 'Fredoka One', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*font-family: 'Bebas Neue', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter+Brush&display=swap'); /*font-family: 'Comforter Brush', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap'); /*font-family: 'Irish Grover', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');/*font-family: 'Rampart One', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); /*font-family: 'Anton', sans-serif;*/
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/layered-waves-haikei\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bodycontainer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap: 14vh;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6em 3em;
+    width: 95%;
+    border: 2px solid #001220;
+    background-image: url(/images/blob-scene-haikei\ \(6\).svg);
+    background-position: center;
+    background-size:cover;
+    border-radius: 29px;
+    margin-top: 10px;
+    
+}
+
+.navlogo{
+    
+    font-family: 'Rampart One', cursive;
+    font-size: 2.5em;
+    color: rgb(255, 153, 0);
+}
+
+
+
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+    
+}
+
+.navlinks a{
+    text-decoration: none;
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+
+.qrgenerator{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: white;
+    width: 90%;
+    border: 2px solid white;
+    height: fit-content;
+    
+    padding: 1em 1em;
+    margin:auto;
+    border-radius: 29px;
+    
+}
+
+
+.generalcontainer{
+    border: 1px solid black;
+    min-width: 50%;
+    padding: 2em 1em;
+    
+    border-radius: 19px;
+    
+}
+
+.qrinstructions{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    padding-bottom: 0.8em;
+}
+
+.qrform{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.userinput{
+
+    text-align: center;
+    width: 80%;
+    padding: 1em 1em;
+    display: block;
+
+}
+
+.qrform button{
+
+    padding: 0.5em;
+    border-radius: 11px;
+    width: 35%;
+    background:red;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;    
+}
+
+.qrcode{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 40%;
+    height: 48vh;
+    border-radius: 19px;
+    padding: 1em 2em;
+    background: white;
+
+}
+
+.qrcode img{
+    width: 90%;
+    height:100%;
+}
